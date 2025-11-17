@@ -1,0 +1,9 @@
+{
+  "name": "coffee-reclamacoes-index",
+  "fields": [
+    { "name": "id", "type": "Edm.String", "key": true, "filterable": true },
+    { "name": "cliente", "type": "Edm.String", "searchable": true },
+    { "name": "reclamacao", "type": "Edm.String", "searchable": true },
+    { "name": "data", "type": "Edm.DateTimeOffset", "filterable": true, "sortable": true }
+  ]
+}
